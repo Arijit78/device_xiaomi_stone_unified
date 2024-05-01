@@ -16,3 +16,9 @@ git clone https://github.com/Evolution-X/hardware_xiaomi.git -b udc hardware/xia
 # Aosp 17.0.4 Clang
 #rm -rf prebuilts/clang/host/linux-x86/r498229b
 git clone --depth=1 https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r498229b.git -b 13.0 prebuilts/clang/host/linux-x86/r498229b
+
+# Clone vendor/xiaomi/miuicamera
+git clone https://github.com/Arijit78/vendor_xiaomi_miuicamera.git -b 14 vendor/xiaomi/miuicamera
+
+# Clone vendor/xiaomi/miuicamera-stone
+git clone https://github.com/Arijit78/vendor_xiaomi_miuicamera-stone.git -b 14 vendor/xiaomi/miuicamera-stone
