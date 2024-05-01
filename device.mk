@@ -5,7 +5,7 @@
 #
 
 # Call the MiuiCamera setup
-$(call inherit-product, vendor/xiaomi/miuicamera-stone/MiuiCamera-stone.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/stone-miuicamera/products/miuicamera.mk)
 
 # Call the ViperFX Config
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
