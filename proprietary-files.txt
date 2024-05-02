@@ -280,6 +280,7 @@ vendor/lib64/libvidhance_ldc.so
 vendor/lib64/libvidhance_stabilizer.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/libHalSuperSensorServer.so
+vendor/lib64/libSuperSensor.so
 
 # Camera arcsoft
 vendor/lib64/libarcsoft_beautyshot.so
